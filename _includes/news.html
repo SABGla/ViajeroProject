@@ -19,6 +19,7 @@
                       <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                       {% if item.description %}
                         <p>{{ item.description }}</p>
+                      {% endif %}
                     {%- endif %}
                   </td>
                 </tr>
