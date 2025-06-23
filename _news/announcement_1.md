@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Project has been successfully transferred to the UK Horizon Guarantee Scheme (project EP/Z000068/1) (20/02/2024)
-date: 2024-02-20 15:59:00 -0400
+title: CHI 25 – The Spin Doctor: Rotational and Translational Gain in Passive VR Scenarios
+date: 2025-04-02 15:59:00 -0400
 inline: false
 related_posts: false
+description:
 ---
 
