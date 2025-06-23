@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Our 12 month project *WearAI*, funded by the AI Safety Institute ([AISI](https://www.aisi.gov.uk/)) has started! 
-date: 2025-02-01 15:59:00 -0400
+title: Papers! Prototypes! Year 1 of ViAjeRo…
+date: 2020-10-27 15:59:00 -0400
 inline: false
 related_posts: false
 description:
