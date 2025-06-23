@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /team/
 title: Team
-description: members and affiliates of AUGSOC
+description: Members and affiliates of AUGSOC
 nav: true
 nav_order: 7
 
