@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CHI 2024- From Slow-Mo to Ludicrous Speed
+title: "CHI 2024- From Slow-Mo to Ludicrous Speed"
 date: 2024-03-25 16:11:00 -0400
 inline: false
 related_posts: false
