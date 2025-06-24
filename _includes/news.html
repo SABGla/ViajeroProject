@@ -16,7 +16,7 @@
                     {% if item.inline -%}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify | markdownify }}
                     {%- else -%}
-                      <p class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</p>
+                      <p class="news-title" href="{{ item.url | relative_url }}"><b>{{ item.title }}</b></p>
                       {% if item.description %}
                         <p>{{ item.description }}</p>
                       {% endif %}
