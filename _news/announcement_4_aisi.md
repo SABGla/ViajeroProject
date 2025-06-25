@@ -8,14 +8,3 @@ description: "It has not been an easy first year for ViAjero – the world has b
 ---
 
 
-
-
-
-
-
-
-
-
-
-
-
