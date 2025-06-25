@@ -8,6 +8,11 @@ nav_order: 2
 
 ---
 
+<form id="form"> 
+  <input type="search" id="query" name="q" placeholder="Search...">
+  <button>Search</button>
+</form>
+
 <!-- _pages/publications.md -->
 
 <div class="publications">
