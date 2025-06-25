@@ -58,3 +58,8 @@ profiles_interns:
     more_info: >
       <p>Research Intern (Summer 2022-2024)</p>
 ---
+
+<form id="form"> 
+  <input type="search" id="query" name="q" placeholder="Search...">
+  <button>Search</button>
+</form>
