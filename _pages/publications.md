@@ -9,7 +9,7 @@ nav_order: 2
 ---
 
 <form id="form"> 
-  <input type="search" id="query" name="q" placeholder="Search...">
+  <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search publications">
   <button>Search</button>
 </form>
 

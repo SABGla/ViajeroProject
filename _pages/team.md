@@ -60,6 +60,6 @@ profiles_interns:
 ---
 
 <form id="form"> 
-  <input type="search" id="query" name="q" placeholder="Search...">
+  <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search contacts">
   <button>Search</button>
 </form>
