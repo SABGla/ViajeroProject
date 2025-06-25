@@ -19,12 +19,11 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/regular"
 ;
 
-form {
-  background-color: #4654e1;
-  width: 300px;
-  height: 44px;
-  display: flex;
-  flex-direction: row;
-  border-radius: 5px;
-  align-items: center;
+input {
+  all: unset;
+  font: #fff;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
 }
