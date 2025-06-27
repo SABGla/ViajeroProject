@@ -22,7 +22,10 @@ $max-content-width: {{ site.max_width }};
 input {
   all: unset;
   color: black;
+  background: white;
   height: 100%;
   width: 100%;
   padding: 6px 10px;
+  font-size: 15px;
+  box-sizing: border-box;
 }
