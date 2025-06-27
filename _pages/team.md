@@ -59,3 +59,24 @@ profiles_interns:
       <p>Research Intern (Summer 2022-2024)</p>
 ---
 
+
+<form role="search" id="form">
+    <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search">
+    <button> Search </button>
+</form>
+
+<script>
+    const f = document.getElementById('form');
+    const q = document.getElementById('query');
+    const google = 'https://www.google.com/search?q=site%3A+';
+    const site = 'pagedart.com';
+
+    function submitted(event) {
+      event.preventDefault();
+      const url = google + site + '+' + q.value;
+      const win = window.open(url, '_blank');
+      win.focus();      
+    }
+
+    f.addEventListener('submit', submitted);
+</script>
