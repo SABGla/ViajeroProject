@@ -32,3 +32,19 @@ input {
   border-radius: 7px;
 }
 
+button {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 15px;
+  border: 1px solid black;
+  border-left: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0b7dda;
+}
+
