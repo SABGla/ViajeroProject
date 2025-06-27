@@ -11,3 +11,25 @@ permalink: /news/
 
 {% include news.html %}
 
+
+
+<script>
+  const form = document.getElementById('form');
+  const queryInput = document.getElement('query');
+  const profiles = document.querySelectorAll('.profile');
+
+  function filterProfiles(event) {
+    event.preventDefault();
+    const searchQuest = queryInput.value.toLowerCase();
+
+    profiles.forEach(profile => {
+      const text = profile.textContent.toLowerCase();
+      if (text.includes(searchQuest)){
+        profile.style.display = '';
+      } else {
+        profile.style.display = 'none';
+      }
+    });
+  }
+  form.addEventListener('submit', filterProfiles);
+</script>
