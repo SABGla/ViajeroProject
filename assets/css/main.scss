@@ -19,33 +19,38 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/regular"
 ;
 
-input {
-  all: unset;
-  color: black;
-  background: white;
-  height: 100%;
-  width: 45%;
-  padding: 6px 10px;
-  font-size: 15px;
+
+* {
   box-sizing: border-box;
-  border: 1px solid black;
-  border-radius: 7px;
 }
 
-button {
-  all: unset;
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
   float: left;
-  width: 15%;
-  padding: 6px 10px;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
   background: #2196F3;
   color: white;
-  font-size: 15px;
-  border: 1px purple;
+  font-size: 17px;
+  border: 1px solid grey;
   border-left: none;
   cursor: pointer;
 }
 
-button:hover {
+form.example button:hover {
   background: #0b7dda;
 }
 
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
