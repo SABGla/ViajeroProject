@@ -6,6 +6,7 @@ description: Members and affiliates of AUGSOC
 nav: true
 nav_order: 7
 
+
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
@@ -61,18 +62,18 @@ profiles_interns:
 
 
 <form role="search" id="form">
-    <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search">
+    <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search Contacts">
     <button> Search </button>
 </form>
 
 <script>
     const f = document.getElementById('form');
     const q = document.getElementById('query');
-    const google = 'https://www.google.com/search?q=site%3A+';
-    const site = 'pagedart.com';
+    const site = 'https://thomasnewton03.github.io/ViajeroWebsite/team/';
 
     function submitted(event) {
       event.preventDefault();
+      const google = 'https://www.google.com/search?q=site%3A+';
       const url = google + site + '+' + q.value;
       const win = window.open(url, '_blank');
       win.focus();      
