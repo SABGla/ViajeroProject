@@ -8,9 +8,10 @@ nav_order: 2
 
 ---
 
-<form id="form"> 
-  <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search publications">
-  <button>Search</button>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<form class="example" action="action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
 </form>
 
 <!-- _pages/publications.md -->
