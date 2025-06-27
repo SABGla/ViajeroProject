@@ -15,21 +15,27 @@ permalink: /news/
 
 <script>
   const form = document.getElementById('form');
-  const queryInput = document.getElement('query');
+  const input = document.getElement('query');
   const profiles = document.querySelectorAll('.profile');
 
-  function filterProfiles(event) {
-    event.preventDefault();
-    const searchQuest = queryInput.value.toLowerCase();
+  const profileContainers = [
+      ...document.querySelectorAll('#profiles-container .profile'),
+      ...document.querySelectorAll('#interns-container .profile')
+  ];
 
-    profiles.forEach(profile => {
+  function filterProfiles(event) {
+    const searchQuest = input.value.toLowerCase();
+
+    profileContainers.forEach(profile => {
       const text = profile.textContent.toLowerCase();
-      if (text.includes(searchQuest)){
-        profile.style.display = '';
-      } else {
-        profile.style.display = 'none';
-      }
+      profile.style.display = text.includes(searchTerm) ? '' : 'none';
     });
   }
-  form.addEventListener('submit', filterProfiles);
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    filterProfiles();
+  });
+
+  input.addEventListener('input', filterProfiles);
 </script>
