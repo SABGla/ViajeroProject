@@ -7,6 +7,12 @@ layout: page
 
         <article>
           {{ content }}
+
+          <form role="search" id="form">
+            <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search Contacts">
+            <button> Search </button>
+          </form>
+          
           {% if page.profiles -%}
           {% for profile in page.profiles %}
           <hr>
