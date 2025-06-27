@@ -59,6 +59,8 @@ profiles_interns:
     more_info: >
       <p>Research Intern (Summer 2022-2024)</p>
 ---
+
+
 <script>
     const f = document.getElementById('form');
     const q = document.getElementById('query');
