@@ -59,13 +59,6 @@ profiles_interns:
     more_info: >
       <p>Research Intern (Summer 2022-2024)</p>
 ---
-
-
-<form role="search" id="form">
-    <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search Contacts">
-    <button> Search </button>
-</form>
-
 <script>
     const f = document.getElementById('form');
     const q = document.getElementById('query');
@@ -81,3 +74,5 @@ profiles_interns:
 
     f.addEventListener('submit', submitted);
 </script>
+
+
