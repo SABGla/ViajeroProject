@@ -14,53 +14,9 @@ layout: page
               <button type="submit"><i class="fa fa-search"></i></button>
           </form>
           
+
+
           <div id = "profiles-container">
-            {% if page.profiles -%}
-              {% for profile in page.profiles %}
-                <div class="profiles-container">
-                  {%- if profile.image %}
-                    <div class="profile-image float-{{ profile.align }}">
-                      {%- assign profile_image_path = profile.image | prepend: 'assets/img/' -%}
-                    </div>
-                  {% endif %}
-
-                  {% if profile.image_circular %}
-                    {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-                  {% else %}
-                    {%- assign profile_image_class = "img-thumbnail" -%}
-                  {% endif %}
-
-                  {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-
-                  {% include figure.html
-                    path = profile_image_path
-                    class = profile_image_class
-                    sizes = sizes
-                    alt = profile.image 
-                  %}
-                {% endif -%}
-                {%- if profile.more_info %}
-                <div class="more-info">
-                  {{ profile.more_info }}
-                </div>
-                {%- endif %}
-              </div>
-            </div>
-
-          <div class="clearfix">
-            {% if profile.content -%}
-            {% capture profile_content %}{%- include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-            {%- else -%}
-            {{ content }}
-            {%- endif %}
-          </div>
-
-          {% endfor %}
-          {%- endif %}
-
-
-          <!--<div id = "profiles-container">
           {% if page.profiles -%}
           {% for profile in page.profiles %}
           <hr>
