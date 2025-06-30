@@ -90,7 +90,7 @@ layout: page
                     {{ profile.more_info }}
                   {% endcapture %}
 
-                  <div class="profile-entry" data-profile="{{ profile_text | strip_html | downcase }}"></div>
+                  <div class="profile-entry" data-profile="{{ profile_text | strip_html | downcase }}">
                     <hr>
                     <div class="profile float-{%- if profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
                       {%- if profile.image %}
