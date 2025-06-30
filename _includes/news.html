@@ -1,5 +1,11 @@
           
           <div class="news">
+            <form class="example" id="news-search-form">
+              <input type="text" id="news-search-input" placeholder="Search news...">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+
+
             {% if site.news != blank -%}
             {%- assign news_size = site.news | size -%}
             <div class="table-responsive" {% if include.limit and site.announcements.scrollable and news_size > 3 %}style="max-height: 60vw"{% endif %}>
