@@ -8,11 +8,12 @@ nav_order: 2
 
 ---
 
+<!--
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <form class="example" action="action_page.php">
     <input type="text" placeholder="Search publications.." name="search">
     <button type="submit"><i class="fa fa-search"></i></button>
-</form>
+</form> -->
 
 <!-- _pages/publications.md -->
 
