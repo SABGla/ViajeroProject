@@ -25,7 +25,7 @@ $max-content-width: {{ site.max_width }};
 }
 
 form.example input[type=text] {
-  padding: 6px;
+  padding: 12px;
   font-size: 14px;
   border: 1px solid grey;
   float: left;
@@ -37,7 +37,7 @@ form.example input[type=text] {
 form.example button {
   float: left;
   width: 15%;
-  padding: 6px;
+  padding: 12px;
   background: #2196F3;
   color: white;
   font-size: 14px;
