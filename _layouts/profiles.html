@@ -9,54 +9,66 @@ layout: page
           {{ content }}
 
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-          <form class="example" action="action_page.php">
-              <input type="text" placeholder="Search contacts.." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
+          <form class="example" id="profile-search-form">
+            <input type="text" id="profile-search-input" placeholder="Search profiles...">
+            <button type="submit"><i class="fa fa-search"></i></button>
           </form>
+          
           
 
 
           <div id = "profiles-container">
             {% if page.profiles -%}
               {% for profile in page.profiles %}
-                <hr>
-                <div class="profile float-{%- if profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-                  {%- if profile.image %}
-                    {%- assign profile_image_path = profile.image | prepend: 'assets/img/' -%}
+                {% capture profile_text %}
+                  {%- if profile.content -%}
+                    {%- include_relative {{ profile.content }} %}
+                  {%- endif -%}
+                    {{ profile.more_info }}
+                  {% endcapture %}
 
-                    {% if profile.image_circular %}
-                      {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-                    {% else %}
-                      {%- assign profile_image_class = "img-thumbnail" -%}
-                    {% endif %}
+                  <div class="profile-entry" data-profile="{{ profile_text | strip_html | downcase }}">
+                    <hr>
+                      <div class="profile float-{%- if profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+                        {%- if profile.image %}
+                          {%- assign profile_image_path = profile.image | prepend: 'assets/img/' -%}
 
-                    {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                          {% if profile.image_circular %}
+                            {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+                          {% else %}
+                            {%- assign profile_image_class = "img-thumbnail" -%}
+                          {% endif %}
 
-                    {% include figure.html
-                      path = profile_image_path
-                      class = profile_image_class
-                      sizes = sizes
-                      alt = profile.image 
-                    %}
-                  {% endif -%}
-                  {%- if profile.more_info %}
-                    <div class="more-info">
-                      {{ profile.more_info }}
-                    </div>
-                  {%- endif %}
-                </div>
+                          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+
+                          {% include figure.html
+                            path = profile_image_path
+                            class = profile_image_class
+                            sizes = sizes
+                            alt = profile.image 
+                          %}
+                          
+                        {% endif -%}
+                        {%- if profile.more_info %}
+                          <div class="more-info">
+                            {{ profile.more_info }}
+                          </div>
+                        {%- endif %}
+                      </div>
       
-                <div class="clearfix">
-                  {% if profile.content -%}
-                    {% capture profile_content %}{%- include_relative {{ profile.content }} %}{% endcapture %}
-                    {{ profile_content | markdownify }}
-                  {%- else -%}
-                    {{ content }}
-                  {%- endif %}
-                </div>
+                      <div class="clearfix">
+                        {% if profile.content -%}
+                          {% capture profile_content %}{%- include_relative {{ profile.content }} %}{% endcapture %}
+                          {{ profile_content | markdownify }}
+                        {%- else -%}
+                          {{ content }}
+                        {%- endif %}
+                      </div>
+                    </div>
 
-              {% endfor %}
-            {%- endif %}
+                  {% endfor %}
+                {%- endif %}
+                
 
 
 
@@ -115,4 +127,29 @@ layout: page
 
 </div>
 
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const searchInput = document.getElementById('profile-search-input');
+  const form = document.getElementById('profile-search-form');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+  });
+
+  searchInput.addEventListener('input', function () {
+    const searchTerm = searchInput.value.toLowerCase();
+    const profiles = document.querySelectorAll('.profile-entry');
+
+    profiles.forEach(function (profile) {
+      const text = profile.getAttribute('data-profile');
+      if (text.includes(searchTerm)) {
+        profile.style.display = '';
+      } else {
+        profile.style.display = 'none';
+      }
+    });
+  });
+});
+</script>
 

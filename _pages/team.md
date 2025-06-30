@@ -61,20 +61,5 @@ profiles_interns:
 ---
 
 
-<script>
-    const f = document.getElementById('form');
-    const q = document.getElementById('query');
-    const site = 'https://thomasnewton03.github.io/ViajeroWebsite/team/';
-
-    function submitted(event) {
-      event.preventDefault();
-      const google = 'https://www.google.com/search?q=site%3A+';
-      const url = google + site + '+' + q.value;
-      const win = window.open(url, '_blank');
-      win.focus();      
-    }
-
-    f.addEventListener('submit', submitted);
-</script>
 
 
