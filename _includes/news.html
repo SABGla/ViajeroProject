@@ -23,7 +23,7 @@
                   {{ item.description }}
                   {{ item.content }}
                 {% endcapture %}
-                <tr>
+                <tr class="news-entry" data-news="{{ news_text | strip_html | downcase }}">
                   <th scope="row" style="width: 20%">{{ item.date | date: "%b %-d, %Y" }}</th>
                   <td>
                     {% if item.inline -%}
