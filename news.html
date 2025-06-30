@@ -15,32 +15,3 @@ permalink: /news/
 
 
 
-
-
-
-<script>
-  const form = document.getElementById('form');
-  const input = document.getElement('query');
-  const profiles = document.querySelectorAll('.profile');
-
-  const profileContainers = [
-      ...document.querySelectorAll('#profiles-container .profile'),
-      ...document.querySelectorAll('#interns-container .profile')
-  ];
-
-  function filterProfiles(event) {
-    const searchQuest = input.value.toLowerCase();
-
-    profileContainers.forEach(profile => {
-      const text = profile.textContent.toLowerCase();
-      profile.style.display = text.includes(searchTerm) ? '' : 'none';
-    });
-  }
-
-  form.addEventListener('submit', e => {
-    e.preventDefault();
-    filterProfiles();
-  });
-
-  input.addEventListener('input', filterProfiles);
-</script>
