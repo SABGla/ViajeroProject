@@ -26,21 +26,21 @@ $max-content-width: {{ site.max_width }};
 
 form.example input[type=text] {
   padding: 6px;
-  font-size: 11px;
+  font-size: 14px;
   border: 1px solid grey;
   float: left;
-  width: 70%;
+  width: 60%;
   background: #f1f1f1;
   border: 1px solid grey;
 }
 
 form.example button {
   float: left;
-  width: 30%;
+  width: 15%;
   padding: 6px;
   background: #2196F3;
   color: white;
-  font-size: 11px;
+  font-size: 14px;
   border: 1px solid grey;
   border-left: none;
   cursor: pointer;
