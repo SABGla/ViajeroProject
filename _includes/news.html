@@ -31,7 +31,8 @@
                     {% if item.inline -%}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify | markdownify }}
                     {%- else -%}
-                      <p class="news-title" href="{{ item.url | relative_url }}"><b>{{ item.title }}</b></p>
+                      <!--<p class="news-title" href="{{ item.url | relative_url }}"><b>{{ item.title }}</b></p>-->
+                      <p class="news-title"><a href="/_pages/contact.md"><b>CHI spin doctor</b></a></p>
                       {% if item.description %}
                         <p>{{ item.description }}</p>
                       {% endif %}
