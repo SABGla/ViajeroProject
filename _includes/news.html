@@ -1,5 +1,6 @@
           
           <div class="news">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
             <form class="example" id="news-search-form">
               <input type="text" id="news-search-input" placeholder="Search news...">
               <button type="submit"><i class="fa fa-search"></i></button>
@@ -26,6 +27,7 @@
                 <tr class="news-entry" data-news="{{ news_text | strip_html | downcase }}">
                   <th scope="row" class="news-date" style="width: 20%">{{ item.date | date: "%b %-d, %Y" }}</th>
                   <td>
+                    
                     {% if item.inline -%}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify | markdownify }}
                     {%- else -%}
@@ -70,4 +72,3 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
-
