@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CHI 25 – The Spin Doctor: Rotational and Translational Gain in Passive VR Scenarios"
+title: "<a href='/_pages/news1.md'>CHI 25 – The Spin Doctor: Rotational and Translational Gain in Passive VR Scenarios</a>
 date: 2025-04-02 15:59:00 -0400
 inline: false
 related_posts: false
