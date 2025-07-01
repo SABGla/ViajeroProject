@@ -18,10 +18,6 @@ layout: default
   <h2>References</h2>
   
   <div class="publications">
-    <form class="example" id="publications-search-form">
-      <input type="text" id="publications-search-input" placeholder="Search publications...">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
 
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
   </div>
@@ -31,44 +27,3 @@ layout: default
     {% include giscus.html %}
   {%- endif -%}
 </div>
-
-
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-
-  const publicationList = document.querySelector('.publications > ol, .publications > ul');
-  if (publicationList) {
-    const items = publicationList.querySelectorAll('li');
-    items.forEach(item => {
-      const text = item.textContent.toLowerCase();
-      const wrapper = document.createElement('div');
-      wrapper.className = 'publication-entry';
-      wrapper.setAttribute('data-publication', text);
-      item.parentNode.insertBefore(wrapper, item);
-      wrapper.appendChild(item);
-    })
-  }
-
-  const searchInput = document.getElementById('publication-search-input');
-  const form = document.getElementById('publication-search-form');
-
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-  });
-
-  searchInput.addEventListener('input', function () {
-    const searchTerm = searchInput.value.toLowerCase();
-    const profiles = document.querySelectorAll('.publication-entry');
-
-    profiles.forEach(function (profile) {
-      const text = profile.getAttribute('data-publication');
-      if (text.includes(searchTerm)) {
-        profile.style.display = '';
-      } else {
-        profile.style.display = 'none';
-      }
-    });
-  });
-});
-</script>
