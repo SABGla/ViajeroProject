@@ -18,15 +18,7 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <!--<h1 class="post-title">{{ page.title }}</h1>-->
-
-    <h1 class="post-title">
-      {% if page.link_url %}
-        <a href="{{ page.link_url }}">{{ page.title }}</a>
-      {% else %}
-        {{ page.title }}
-      {% endif %}
-    </h1>
+    <h1 class="post-title">{{ page.title }}</h1>
 
     <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
     <p class="post-tags">
