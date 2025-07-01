@@ -11,7 +11,7 @@
 
   <!-- Body -->
   <!-- <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}"> -->
-    <body class = "d-flex flex-column min-vh-100 {% if site.navbar_fixed %}fixed-top-nav{% endif %}">
+    <body class = "d-flex flex-column min-vh-100">
 
     <!-- Header -->
     {%- include header.html %}
@@ -50,7 +50,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class = "bg-white text-black border-top py-3">
+    <footer class = "bg-white text-black border-top py-3 mt-auto">
       <div class = "container text-center">
         {%- include footer.html %}
       </div>
