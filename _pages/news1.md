@@ -1,11 +1,8 @@
 ---
 layout: page
-permalink: /contact/
-title: Contact
-description: 
+permalink: /
+title: News1
+description: News 1
 nav: true
-nav_order: 6
+nav_order: 7
 ---
-
-
-This is news page 1
