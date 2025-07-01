@@ -62,5 +62,23 @@ form.example::after {
   font-size: 1.4rem;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background: #f0f0f0;
+  text: black;
+  border-top: 1px solid #ccc;
+  margin-top: auto;
+}
+
 
 
