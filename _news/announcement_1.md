@@ -16,13 +16,13 @@ Across two studies we measured the barely perceivable level of rotational gain a
 
 <br> <br> 
 
-<img src='/assets/img/news-1.png' alt='image 1'> 
+<img src='/assets/img/news-1.png'> 
 
 <br> <br> We found that the barely perceivable gain level was ~4x the real rotation, the maximum comfortable gain was a massive 14-17x real rotation, and participants are largely unable to tell when the real and virtual motion are in opposite directions. The results and our guidelines show how passive motion scenarios – such as simulators, gaming chairs, rollercoasters and vehicular XR – can greatly amplify the perceived amount of virtual motion, decoupling physical and virtual movement to provide a wider range of experiences. 
 
 <br> <br> 
 
-<img src='/assets/img/news-2.png' alt='image 2'> 
+<img src='/assets/img/news-2.png'> 
 
 <br> <br> 
 
