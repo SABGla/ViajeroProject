@@ -10,12 +10,14 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <!-- <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}"> -->
+    <body class = "d-flex flex-column min-vh-100 {% if site.navbar_fixed %}fixed-top-nav{% endif %}">
 
     <!-- Header -->
     {%- include header.html %}
 
     <!-- Content -->
+    <main class="flex-fill">
     <div class="container mt-5">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == "right" %}
@@ -45,9 +47,14 @@
         {{ content }}
       {% endif %}
     </div>
+    </main>
 
     <!-- Footer -->
-    {%- include footer.html %}
+    <div class = "bg-white text-black border-top py-3">
+      <div class = "container text-center">
+        {%- include footer.html %}
+      </div>
+    </div>
 
     <!-- JavaScripts -->
     {% include scripts/jquery.html %}
