@@ -26,9 +26,6 @@
                 <tr class="news-entry" data-news="{{ news_text | strip_html | downcase }}">
                   <th scope="row" class="news-date" style="width: 20%">{{ item.date | date: "%b %-d, %Y" }}</th>
                   <td>
-                    <!--
-                    {%- if news.image %}
-                      %- assign news_image_path = news.image | prepend: 'assets/img/' -%} -->
                     {% if item.inline -%}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify | markdownify }}
                     {%- else -%}
