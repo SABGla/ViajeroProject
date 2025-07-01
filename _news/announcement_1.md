@@ -10,24 +10,17 @@ description: "Following up last years Ludicrous paper, we are delighted to have 
 
 Following up last years Ludicrous paper, we are delighted to have another full paper accepted to ACM CHI 2025 in Yokohama, on the perception of rotational and translational gain in VR in both a motorised simulator chair and moving car on real roads [1]. A pre-print is available <a href='file:///C:/Users/tjnew/viajero-html-rip/viajero/viajero/viajero-project.org/wp-content/Papers/CHI_25_Spin_Doctor_Accessible.pdf'>here</a>. 
 
-<br> <br> 
 
 Across two studies we measured the barely perceivable level of rotational gain as well as the maximum comfortable level when being rotated in a YawVR Yaw2 simulator chair – examing the effects of Speed, Turn Angle, Task and Motion Congruence. We then applied what we learned to a third study where car passengers experienced an ‘unbounded’ VR spaceship game where the real car turns and speed were amplified by 3-10x and we measured perception of any mismatch. 
 
-<br> <br> 
-
 <img src='/assets/img/news-1.png'> 
 
-<br> <br> We found that the barely perceivable gain level was ~4x the real rotation, the maximum comfortable gain was a massive 14-17x real rotation, and participants are largely unable to tell when the real and virtual motion are in opposite directions. The results and our guidelines show how passive motion scenarios – such as simulators, gaming chairs, rollercoasters and vehicular XR – can greatly amplify the perceived amount of virtual motion, decoupling physical and virtual movement to provide a wider range of experiences. 
+We found that the barely perceivable gain level was ~4x the real rotation, the maximum comfortable gain was a massive 14-17x real rotation, and participants are largely unable to tell when the real and virtual motion are in opposite directions. The results and our guidelines show how passive motion scenarios – such as simulators, gaming chairs, rollercoasters and vehicular XR – can greatly amplify the perceived amount of virtual motion, decoupling physical and virtual movement to provide a wider range of experiences. 
 
-<br> <br> 
-
-<img src='/assets/img/news-2.png'> 
-
-<br> <br> 
+<img src='/assets/img/news-2.png'>  
 
 <b>References</b> 
-<br> 
+
 <a href='https://link.springer.com/article/10.1007/s10055-019-00420-x' target='_blank'> [1] G. Wilson, K. M. T. Pohlmann, D. Al Baiaty Suarez, M. Mcgill, and S. A. Brewster, “The spin doctor: leveraging insensitivity to passive rotational &amp; translational gain for unbounded motion-based VR experiences,” in Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, New York, NY, USA, 2025.</a>
 
 

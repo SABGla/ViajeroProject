@@ -9,7 +9,6 @@ description: "We’re excited to be going to CHI 2020 soon, where we’ll be pre
 
 We’re excited to be going to CHI 2020 soon, where we’ll be presenting a paper on Auditory Mixed Reality [1] , which you can see as a preprint here. We’ll also be running a workshop on the Ethics of Mixed Reality. 
 
-<br> <br> 
 
 <b>References</b> 
 
