@@ -80,5 +80,15 @@ footer {
   margin-top: auto;
 }
 
+.news-title a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
+}
+
+.news-title a:hover {
+  text-decoration: underline;
+}
+
 
 
