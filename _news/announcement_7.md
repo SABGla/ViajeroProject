@@ -7,7 +7,7 @@ related_posts: false
 description: "We’ve got a new publication in Springer VR [1] , exploring the big challenges in supporting passenger mixed reality experiences, from motion sickness, to physical safety, to social acceptability – it’s a really interesting review of the area, and it’s open access, so check it out!"
 ---
 
-We’ve got a new publication in Springer VR [1] , exploring the big challenges in supporting passenger mixed reality experiences, from motion sickness, to physical safety, to social acceptability – it’s a really interesting review of the area, and it’s open access, so check it out!
+We’ve got a new publication in Springer VR [1] , exploring the big challenges in supporting passenger mixed reality experiences, from motion sickness, to physical safety, to social acceptability – it’s a really interesting review of the area, <a href='https://link.springer.com/article/10.1007/s10055-019-00420-x'>and it’s open access</a>, so check it out!
 
 <b>References</b> 
 
