@@ -8,7 +8,7 @@ description: "Following up last years Ludicrous paper, we are delighted to have 
 
 ---
 
-Following up last years <a href='/_news/announcement_2.md'>Ludicrous paper</a>, we are delighted to have another full paper accepted to ACM CHI 2025 in Yokohama, on the perception of rotational and translational gain in VR in both a motorised simulator chair and moving car on real roads [1]. A pre-print is available <a href='file:///C:/Users/tjnew/viajero-html-rip/viajero/viajero/viajero-project.org/wp-content/Papers/CHI_25_Spin_Doctor_Accessible.pdf'>here</a>. 
+Following up last years <a href='/_news/announcement_2.md', target='_blank'>Ludicrous paper</a>, we are delighted to have another full paper accepted to ACM CHI 2025 in Yokohama, on the perception of rotational and translational gain in VR in both a motorised simulator chair and moving car on real roads [1]. A pre-print is available <a href='file:///C:/Users/tjnew/viajero-html-rip/viajero/viajero/viajero-project.org/wp-content/Papers/CHI_25_Spin_Doctor_Accessible.pdf', target='_blank'>here</a>. 
 
 
 Across two studies we measured the barely perceivable level of rotational gain as well as the maximum comfortable level when being rotated in a YawVR Yaw2 simulator chair – examing the effects of Speed, Turn Angle, Task and Motion Congruence. We then applied what we learned to a third study where car passengers experienced an ‘unbounded’ VR spaceship game where the real car turns and speed were amplified by 3-10x and we measured perception of any mismatch. 
