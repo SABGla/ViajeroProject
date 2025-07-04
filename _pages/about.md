@@ -38,4 +38,8 @@ VR/AR headsets could allow passengers to use their travel time in new, productiv
 
 ViAjeRo started in 2019 and finished in 2025, and you can explore our project outputs on this website.
 
+
+The Viajero project is an ERC Advanced Grant (101201656) to Professor Stephen Brewster, in the School of Computing Science at the University of Glasgow.
+
+
 ---
