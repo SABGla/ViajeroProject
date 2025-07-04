@@ -29,19 +29,19 @@ profiles:
     more_info: >
       <p>Research Co-Investigator / Research Fellow</p> 
   - align: left
-    image: team/daniel.jpg
+    image: team/daniel.png
     content: team/about_daniel.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Co-Investigator</p>  
   - align: right
-    image: team/gang.jpg
+    image: team/gang.png
     content: team/about_gang.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Research Associate</p>  
   - align: left
-    image: team/katharina.jpg
+    image: team/katharina.png
     content: team/about_katharina.md
     image_circular: false # crops the image to make it circular
     more_info: >
