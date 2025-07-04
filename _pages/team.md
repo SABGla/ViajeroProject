@@ -21,13 +21,13 @@ profiles:
     content: team/about_julie.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Research Co-Investigator / Research Associate</p> 
+      <p>Research Co-Investigator</p> 
   - align: right
     image: team/graham.jpg
     content: team/about_graham.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Research Co-Investigator / Research Fellow</p> 
+      <p>Research Co-Investigator</p> 
   - align: left
     image: team/daniel.png
     content: team/about_daniel.md
@@ -41,7 +41,6 @@ profiles:
     more_info: >
       <p>Research Associate</p>  
   - align: left
-    image: team/katharina.png
     content: team/about_katharina.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -51,14 +50,11 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD Student</p>  
-
-
-profiles_interns:
   - align: right
     content: team/about_iain.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Research Intern (Summer 2022-2024)</p>
+      <p>PhD Student</p>
 ---
 
 
