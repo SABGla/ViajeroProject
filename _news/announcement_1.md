@@ -22,4 +22,3 @@ We found that the barely perceivable gain level was ~4x the real rotation, the m
 
 <a href="https://link.springer.com/article/10.1007/s10055-019-00420-x" target="_blank"> [1] G. Wilson, K. M. T. Pohlmann, D. Al Baiaty Suarez, M. Mcgill, and S. A. Brewster, “The spin doctor: leveraging insensitivity to passive rotational &amp; translational gain for unbounded motion-based VR experiences,” in Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, New York, NY, USA, 2025.</a>
 
-
