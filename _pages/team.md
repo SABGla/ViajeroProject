@@ -21,25 +21,25 @@ profiles:
     content: team/about_julie.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Research Co-Investigator</p> 
+      <p>Research Associate</p> 
   - align: right
     image: team/graham.jpg
     content: team/about_graham.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Research Co-Investigator</p> 
-  - align: left
-    image: team/daniel.png
-    content: team/about_daniel.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Co-Investigator</p>  
+      <p>Research Associate</p>   
   - align: right
     image: team/gang.png
     content: team/about_gang.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Research Associate</p>  
+  - align: left
+    image: team/daniel.png
+    content: team/about_daniel.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Research Associate</p>
   - align: left
     content: team/about_katharina.md
     image_circular: false # crops the image to make it circular
