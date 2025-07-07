@@ -3,4 +3,4 @@
 Interested in the perception of human movement and the cognitive and neural processes that underlie our abilities to understand the actions of others. In particular, recent research emphasises brain imaging and how individual differences involving autism, depression and skill expertise are expressed in the brain circuits for action understanding. Research applcations include virtual reality and cyber sickness as well as trust in human-AI interactions. Obtained BS degrees in physics and biology from MIT in 1982, an MSc in Biomedical Engineering from Case Western Reserve University in 1984 and a PhD in Cognitive Sciences from The University of California, Irvine in 1991. Following this he was an invited researcher at the ATR Human Information Processing Research Labs in Kyoto, Japan from 1991-97.
 
 [<i class="ai ai-google-scholar-square ai-3x"></i>](https://scholar.google.co.uk/citations?user=CpaJdw4AAAAJ&hl=en)
-[<i class="ai ai-dblp-sqaure ai-3x"</i>](https://dblp.org/pid/52/930.html)
+[<i class="ai ai-dblp-sqaure ai-3x"></i>](https://dblp.org/pid/52/930.html)

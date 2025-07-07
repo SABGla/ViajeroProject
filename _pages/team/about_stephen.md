@@ -5,4 +5,4 @@ I am a Fellow of the Royal Society of Edinburgh, a member of the ACM SIGCHI Acad
 My profile on Google Scholar gives an updated list of publications.
 
 [<i class="ai ai-google-scholar-square ai-3x"></i>](https://scholar.google.co.uk/citations?hl=en&user=uu7LudIAAAAJ)
-[<i class="ai ai-dblp-sqaure ai-3x"</i>](https://dblp.org/pid/b/StephenABrewster.html)
+[<i class="ai ai-dblp-sqaure ai-3x"></i>](https://dblp.org/pid/b/StephenABrewster.html)
