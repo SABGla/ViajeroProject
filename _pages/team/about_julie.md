@@ -12,5 +12,5 @@ Research Interests:
 - prototyping/electronics
 
 [<i class="ai ai-google-scholar-square ai-3x"></i>](https://scholar.google.com/citations?user=qUtAKFQAAAAJ&hl=en)
-[<i class="ai ai-dblp-sqaure ai-3x"</i>](https://dblp.org/pid/45/9598.html)
+[<i class="ai ai-dblp-sqaure ai-3x"></i>](https://dblp.org/pid/45/9598.html)
 
