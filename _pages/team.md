@@ -41,6 +41,7 @@ profiles:
     more_info: >
       <p>Research Associate</p>
   - align: left
+    image: team/katharina.png
     content: team/about_katharina.md
     image_circular: false # crops the image to make it circular
     more_info: >
