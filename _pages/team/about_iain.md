@@ -1,6 +1,6 @@
 # Iain Christie
 
-Virtual and augmented realilty passenger experiences
+Research title: Virtual and augmented realilty passenger experiences
 
 
 

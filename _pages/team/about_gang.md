@@ -5,3 +5,5 @@ I was born in China in 1985. I earned a B.Eng. degree in Communication Engineeri
 VR-BCI (where BCI can be EEG, fNIRS and DOT-based)
 EEG-guided Open/Close-loop Brain Stimulation
 Vestibular Neuroscienece (including neural basis of cybersickness/motion sickness)
+
+[<i class="ai ai-google-scholar-square ai-3x"></i>](https://scholar.google.com/citations?user=lLG3aogAAAAJ&hl=en) 
