@@ -8,7 +8,7 @@ description: "Following up last years Ludicrous paper, we are delighted to have 
 
 ---
 
-Following up last years <a href='/_news/announcement_2.md', target='_blank'>Ludicrous paper</a>, we are delighted to have another full paper accepted to ACM CHI 2025 in Yokohama, on the perception of rotational and translational gain in VR in both a motorised simulator chair and moving car on real roads [1]. A pre-print is available <a href='file:///C:/Users/tjnew/viajero-html-rip/viajero/viajero/viajero-project.org/wp-content/Papers/CHI_25_Spin_Doctor_Accessible.pdf', target='_blank'>here</a>. 
+Following up last years <a href="/_news/announcement_2.md", target="_blank">Ludicrous paper</a>, we are delighted to have another full paper accepted to ACM CHI 2025 in Yokohama, on the perception of rotational and translational gain in VR in both a motorised simulator chair and moving car on real roads [1]. A pre-print is available <a href="file:///C:/Users/tjnew/viajero-html-rip/viajero/viajero/viajero-project.org/wp-content/Papers/CHI_25_Spin_Doctor_Accessible.pdf", target="_blank">here</a>. 
 
 
 Across two studies we measured the barely perceivable level of rotational gain as well as the maximum comfortable level when being rotated in a YawVR Yaw2 simulator chair – examing the effects of Speed, Turn Angle, Task and Motion Congruence. We then applied what we learned to a third study where car passengers experienced an ‘unbounded’ VR spaceship game where the real car turns and speed were amplified by 3-10x and we measured perception of any mismatch. 
@@ -21,6 +21,6 @@ We found that the barely perceivable gain level was ~4x the real rotation, the m
 
 <b>References</b> 
 
-<a href='https://link.springer.com/article/10.1007/s10055-019-00420-x' target='_blank'> [1] G. Wilson, K. M. T. Pohlmann, D. Al Baiaty Suarez, M. Mcgill, and S. A. Brewster, “The spin doctor: leveraging insensitivity to passive rotational &amp; translational gain for unbounded motion-based VR experiences,” in Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, New York, NY, USA, 2025.</a>
+<a href="https://link.springer.com/article/10.1007/s10055-019-00420-x" target="_blank"> [1] G. Wilson, K. M. T. Pohlmann, D. Al Baiaty Suarez, M. Mcgill, and S. A. Brewster, “The spin doctor: leveraging insensitivity to passive rotational &amp; translational gain for unbounded motion-based VR experiences,” in Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, New York, NY, USA, 2025.</a>
 
 
