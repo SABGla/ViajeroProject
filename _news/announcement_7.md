@@ -11,6 +11,6 @@ We’ve got a new publication in Springer VR [1] , exploring the big challenges 
 
 <b>References</b> 
 
-<br> [1] <a href='https://eprints.gla.ac.uk/205513/' target='_blank'> M. McGill, J. Williamson, A. Ng, F. Pollick, and S. Brewster, “Challenges in passenger use of mixed reality headsets in cars and other transportation,” Virtual reality, 2019.
+<br> <a href='https://eprints.gla.ac.uk/205513/' target='_blank'> [1] M. McGill, J. Williamson, A. Ng, F. Pollick, and S. Brewster, “Challenges in passenger use of mixed reality headsets in cars and other transportation,” Virtual reality, 2019.
 
 

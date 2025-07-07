@@ -20,5 +20,5 @@ Using our <a href="/_news/announcement_3.md">PassengXR motion platform</a>, we c
 
 <b>References</b> 
 
-<br> [1] <a href='https://eprints.gla.ac.uk/322639' target='_blank'> K. M. T. Pohlmann, G. Wilson, G. Li, M. Mcgill, and S. A. Brewster, “From slow-mo to ludicrous speed: comfortably manipulating the perception of linear in-car vr motion through vehicular translational gain and attenuation,” in Proceedings of the 2024 chi conference on human factors in computing systems, New York, NY, USA, 2024.
+<br> <a href='https://eprints.gla.ac.uk/322639' target='_blank'> [1] K. M. T. Pohlmann, G. Wilson, G. Li, M. Mcgill, and S. A. Brewster, “From slow-mo to ludicrous speed: comfortably manipulating the perception of linear in-car vr motion through vehicular translational gain and attenuation,” in Proceedings of the 2024 chi conference on human factors in computing systems, New York, NY, USA, 2024.
 

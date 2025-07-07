@@ -18,5 +18,5 @@ PassengXR supports multiple concurrent users in both individual and shared exper
 
 <b>References</b> 
 
-<br> [1] <a href='https://dl.acm.org/doi/10.1145/3526113.3545657' target='_blank'> M. McGill, G. Wilson, D. Medeiros, and S. Brewster, “Passengxr: a low cost platform for any-car, multi-user, motion-based passenger xr experiences,” in Uist ’22: proceedings of the 35th annual acm symposium on user interface software and technology, , 2022.
+<br> <a href='https://dl.acm.org/doi/10.1145/3526113.3545657' target='_blank'> [1] M. McGill, G. Wilson, D. Medeiros, and S. Brewster, “Passengxr: a low cost platform for any-car, multi-user, motion-based passenger xr experiences,” in Uist ’22: proceedings of the 35th annual acm symposium on user interface software and technology, , 2022.
 

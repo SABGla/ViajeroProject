@@ -24,7 +24,7 @@ We hope that in the coming year society can start to get back to normal and beat
 
 <b>References</b> 
 
-<br> [1] <a href='https://dl.acm.org/doi/abs/10.1007/s10055-019-00420-x' target='_blank'> M. McGill, J. Williamson, A. Ng, F. Pollick, and S. Brewster, “Challenges in passenger use of mixed reality headsets in cars and other transportation,” Virtual reality, 2019. 
+<br> <a href='https://dl.acm.org/doi/abs/10.1007/s10055-019-00420-x' target='_blank'> [1] M. McGill, J. Williamson, A. Ng, F. Pollick, and S. Brewster, “Challenges in passenger use of mixed reality headsets in cars and other transportation,” Virtual reality, 2019. 
  
 <a href='https://research.euanfreeman.co.uk/papers/TOCHI_Workspaces.pdf' target='_blank'> [2] M. Mcgill, A. Kehoe, E. Freeman, and S. Brewster, “Expanding the bounds of seated virtual workspaces,” Acm trans. comput.-hum. interact., vol. 27, iss. 3, 2020. 
  
