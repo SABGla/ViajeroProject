@@ -12,11 +12,23 @@ Following up last years <a href="/_news/announcement_2">Ludicrous paper</a>, we 
 
 Across two studies we measured the barely perceivable level of rotational gain as well as the maximum comfortable level when being rotated in a YawVR Yaw2 simulator chair – examing the effects of Speed, Turn Angle, Task and Motion Congruence. We then applied what we learned to a third study where car passengers experienced an ‘unbounded’ VR spaceship game where the real car turns and speed were amplified by 3-10x and we measured perception of any mismatch. 
 
-<img src="/assets/img/news-1.png"> 
+<!--<img src="/assets/img/news-1.png">-->
+
+<div class="row mt-3">
+     <div class="col-sm mt-3 mt-md-0">
+         {% include figure.html path="assets/img/news-1.png" class="img-fluid rounded z-depth-1" %}
+     </div>
+ </div>
 
 We found that the barely perceivable gain level was ~4x the real rotation, the maximum comfortable gain was a massive 14-17x real rotation, and participants are largely unable to tell when the real and virtual motion are in opposite directions. The results and our guidelines show how passive motion scenarios – such as simulators, gaming chairs, rollercoasters and vehicular XR – can greatly amplify the perceived amount of virtual motion, decoupling physical and virtual movement to provide a wider range of experiences. 
 
-<img src="/assets/img/news-2.png">  
+<!--<img src="/assets/img/news-2.png">--> 
+
+<div class="row mt-3">
+     <div class="col-sm mt-3 mt-md-0">
+         {% include figure.html path="assets/img/news-2.png" class="img-fluid rounded z-depth-1" %}
+     </div>
+ </div>
 
 <b>References</b> 
 
