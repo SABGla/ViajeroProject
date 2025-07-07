@@ -15,6 +15,17 @@ Published at ACM UIST 2022 [1], the motion platform uses ESP32 Arduino sensors t
 
 PassengXR supports multiple concurrent users in both individual and shared experiences and includes a number of ways to correct the alignment of vehicle and headset IMUs, which are inherently prone to drifting when in-motion. All code for the motion platform will be made available through GitHub, and more information can be found on the Motion Platform page and in the UIST paper [1]. 
 
+<div class="row mt-3">
+     <div class="col-sm mt-3 mt-md-0">
+         <div class="embed-responsive embed-responsive-16by9">
+          <iframe 
+            class="embed-responsive-item" 
+            src="file:///C:/Users/tjnew/viajero-html-rip/viajero/viajero/viajero-project.org/wp-content/uploads/2020/10/UIST2020-30secs-preview.mp4"
+            allowfullscreen>
+          </iframe>
+        </div>
+     </div>
+ </div>
 
 <b>References</b> 
 
