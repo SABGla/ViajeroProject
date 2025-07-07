@@ -38,3 +38,4 @@ We hope that in the coming year society can start to get back to normal and beat
 
 <a href='https://eprints.gla.ac.uk/214043/' target='_blank'> [7] M. McGill, F. Mathis, M. Khamis, and J. Williamson, “Augmenting tv viewing using acoustically transparent auditory headsets,” in Acm international conference on interactive media experiences, New York, NY, USA, 2020, p. 34–44.
 
+
