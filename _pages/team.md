@@ -62,21 +62,23 @@ profiles:
 
 profiles_supported:
   - align: right
+    image: team/ammar.png
     content: team/about_ammar.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>PhD Student</p>  
+        
   - align: left
+    image: team/thomas.png
     content: team/about_thomas.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>PhD Student</p>
+      
   - align: right
     content: team/about_rawan.md
     image_circular: false # crops the image to make it circular
     more_info: >
   
-  
+
   
 
 profiles_interns:
@@ -85,7 +87,7 @@ profiles_interns:
     image_circular: false # crops the image to make it circular
     more_info: >
   
-  - align: left
+  - align: right
     content: team/about_iain.md
     image_circular: false # crops the image to make it circular
     more_info: >
