@@ -15,21 +15,13 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-
-<img
-  src="{{ '/assets/img/header-car.png' | relative_url }}"
-  class="img-fluid rounded z-depth-1"
-  width="100%"
-  height="auto"
-  alt="Car image"
->
-
      
-<!--<div class="row mt-3">
+<div class="row mt-3">
      <div class="col-sm mt-3 mt-md-0">
          {% include figure.html path="assets/img/header-car.png" class="img-fluid rounded z-depth-1" %}
      </div>
- </div>-->
+ </div>
+ 
 
 The aim of _ViAjeRo_ (Traveller in Spanish) is to **radically improve all passenger journeys by facilitating the use of immersive Virtual and Augmented Reality (together called XR) to support entertainment, work and collaboration when on the move**.
 
