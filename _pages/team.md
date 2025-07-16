@@ -57,7 +57,20 @@ profiles:
     content: team/about_katharina.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Research Associate</p>  
+      <p>Research Associate</p> 
+
+
+profiles_supported:
+  - align: right
+    content: team/about_laura.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>PhD Student</p>  
+  - align: left
+    content: team/about_frank.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>PhD Student</p>
   
 
 profiles_interns:

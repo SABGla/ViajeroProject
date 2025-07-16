@@ -77,8 +77,8 @@ layout: page
 	            <p class="post-description"></p> 
 	          </header>
 
-            {% if page.profiles_interns -%}
-              {% for profile in page.profiles_interns %}
+            {% if page.profiles_supported -%}
+              {% for profile in page.profiles_supported %}
                 {% capture profile_text %}
                   {%- if profile.content -%}
                     {%- include_relative {{ profile.content }} %} 
