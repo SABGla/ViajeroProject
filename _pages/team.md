@@ -23,14 +23,26 @@ profiles:
     more_info: >
       <p>Research Associate</p> 
   - align: right
+    image: team/mark.png
+    content: team/about_mark.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Research Associate</p> 
+  - align: left
     image: team/graham.jpg
     content: team/about_graham.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Research Associate</p>   
-  - align: left
+  - align: right
     image: team/gang.png
     content: team/about_gang.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Research Associate</p>  
+  - align: left
+    image: team/frank.png
+    content: team/about_frank.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Research Associate</p>  
