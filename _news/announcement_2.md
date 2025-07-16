@@ -13,11 +13,6 @@ We are very happy to have a full paper accepted to ACM CHI 2024 in Hawai’i, on
 
 Using our <a href="/_news/announcement_3.md">PassengXR motion platform</a>, we conveyed the car’s movement to a VR headset and either increased (1.5x-9.5x) or decreased (0.66x to 0.14x) the virtual speed 1) through a cityscape during a reading/productivity task and 2) through a space station trench during a spaceship shooting game. We investigated how well passengers can detect the manipulation in speed, how it affected motion sickness, and whether it altered the perceived speed or distance of car journey. 
 
-<!--
-<iframe width="420" height="315"
-  src="https://youtu.be/t3zA1lJcXcE">
-</iframe>
--->
 
 <div class="row mt-3">
      <div class="col-sm mt-3 mt-md-0">
