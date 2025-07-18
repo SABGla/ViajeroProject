@@ -18,11 +18,10 @@ social: false  # includes social icons at the bottom of the page
      
 <div class="row mt-3">
      <div class="col-sm mt-3 mt-md-0">
-         <!--{% include figure2.html path="assets/img/header-car2.png" class="img-fluid rounded z-depth-1" %}-->
-         <img src="{% asset_path 'header-car2.png' %}" class="img-fluid rounded w-50">
+        {% include figure2.html path="assets/img/header-car2.png" class="img-fluid rounded z-depth-1" %}
      </div>
  </div>
- 
+
  
 
 The aim of _ViAjeRo_ (Traveller in Spanish) is to **radically improve all passenger journeys by facilitating the use of immersive Virtual and Augmented Reality (together called XR) to support entertainment, work and collaboration when on the move**.
