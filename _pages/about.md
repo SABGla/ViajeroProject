@@ -23,6 +23,7 @@ social: false  # includes social icons at the bottom of the page
      </div>
  </div>
  
+ 
 
 The aim of _ViAjeRo_ (Traveller in Spanish) is to **radically improve all passenger journeys by facilitating the use of immersive Virtual and Augmented Reality (together called XR) to support entertainment, work and collaboration when on the move**.
 
