@@ -1,4 +1,4 @@
 User-agent: *
 Allow:
 
-Sitemap: https://SABGla.github.io/ViajeroProject/sitemap.xml
+Sitemap: https://mig-glasgow.github.io/erc-viajero-project/sitemap.xml
